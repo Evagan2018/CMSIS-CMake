@@ -1,6 +1,9 @@
 name: GCC 15.3.2 qualification / Build GPIO_IOToggle
 'on':
   workflow_dispatch: null
+  push:
+    branches:
+    - gcc-15.3.2-qualification-20261021-133244
 permissions:
   contents: read
 jobs:
